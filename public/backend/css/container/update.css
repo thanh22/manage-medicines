@@ -1,0 +1,26 @@
+.code_container{
+    padding: 10px 0;
+}
+.address_delivery{
+    padding: 10px 0;
+}
+
+.listPage{
+    max-height: 170px;
+    overflow: scroll;
+    margin-bottom: 20px;
+}
+.qtPStamp{
+    padding: 10px 0;
+}
+#qt_pStamp{
+    border: none;
+    width: 50px;
+    margin: 10px 0;
+}
+ol li i{
+    margin-left: 15px;
+}
+.product{
+    padding: 10px 0;
+}

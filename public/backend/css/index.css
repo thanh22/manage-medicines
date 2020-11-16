@@ -1,0 +1,24 @@
+table thead th{
+    font-weight: 600 !important;
+}
+
+.ship-modal{
+    background: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.add-ship{
+    color: #ffffff !important;
+}
+
+.modal-status{
+    max-width: 800px !important;
+}
+
+.div-on-status{
+    background: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}

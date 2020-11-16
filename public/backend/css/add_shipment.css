@@ -1,0 +1,26 @@
+.div-ogirin{
+    padding: 15px;
+    background: antiquewhite;
+    border-radius: 10px;
+}
+.select2{
+    width: 100% !important;
+}
+
+.multi-select{
+    cursor: pointer;
+    height: 90px;
+    overflow: hidden;
+}
+.multi-select:hover{
+    border: 1px solid #d4e3e8;
+    border-radius: 5px;
+}
+
+.multi-select img{
+    width: 100%;
+}
+
+.img_list{
+    margin-top: 10px;
+}

@@ -1,0 +1,60 @@
+ul, li {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+form ul li {
+    margin:10px 20px;
+
+}
+
+.div-password{
+    position:relative;
+}
+
+#pswd_info {
+    display: none;
+    position:absolute;
+    bottom:-140px;
+    bottom: -115px\9; /* IE Specific */
+    right:65px;
+    width:250px;
+    padding:15px;
+    background:#fefefe;
+    font-size:.875em;
+    border-radius:5px;
+    box-shadow:0 1px 3px #ccc;
+    border:1px solid #ddd;
+    z-index: 10;
+}
+
+#pswd_info::before {
+    content: "\25B2";
+    position:absolute;
+    top:-12px;
+    left:45%;
+    font-size:14px;
+    line-height:14px;
+    color:#ddd;
+    text-shadow:none;
+    display:block;
+}
+
+.valid {
+color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -5px;
+    content: "✔";
+}
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -5px;
+    content: "✖";
+}

@@ -1,0 +1,9 @@
+body, html{
+    font-size: 16px !important;
+}
+.m-menu__nav{
+    padding-left: 0px !important;
+}
+.m-aside-menu .m-menu__nav{
+    padding: 0px;
+}
